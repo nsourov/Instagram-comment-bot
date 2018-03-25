@@ -1,0 +1,21 @@
+{
+  "name": "insta-comment-bot",
+  "version": "1.0.0",
+  "description": "Instagram comment bot",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . InstaCommentBot --icon=icon.ico"
+  },
+  "repository": "",
+  "author": "Naimur",
+  "license": "MIT",
+  "dependencies": {
+    "asar": "^0.14.3",
+    "puppeteer": "^1.2.0"
+  },
+  "devDependencies": {
+    "electron": "v1.8.3",
+    "electron-packager": "^11.2.0"
+  }
+}

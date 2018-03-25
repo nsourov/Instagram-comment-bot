@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>InstaCommentBot</title>
+</head>
+<body>
+  <div class="container">
+      <div class="text-center header">
+    <img src="icon.ico" alt="instagram" class="img"> <span class="title">Comment Bot</span>
+    <br>
+  </div>
+  <div class="wrapper">
+    <form>
+      <h4 class="text-default text-center msg">Bot started...</h4>
+      <br> 
+  <div class="row">
+    <div class="col">
+      <input type="text" class="form-control username" placeholder="username or email">
+    </div>
+    <div class="col">
+      <input type="password" class="form-control password" placeholder="password">
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col">
+      <input type="text" class="form-control url" placeholder="post URL">
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col">
+      <textarea class="form-control comment" placeholder="comment"></textarea>
+    </div>
+  </div>
+</form>
+  </div>
+    </div>
+  <div id="social-platforms">
+      <a class="btn btn-icon btn-facebook facebook-start" href="#"><i class="fa fa-facebook"></i><span>Facebook</span></a>
+        <a class="btn btn-icon btn-instagram instagram-start" href="#"><i class="fa fa-instagram"></i><span>Instagram</span></a>
+  </div>
+    <!-- Insert this line above script imports  -->
+<script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+  <script src="jquery.js"></script>
+  <script>
+    require('./puppeteer.js');
+  </script>
+  <!-- Insert this line after script imports -->
+<script>if (window.module) module = window.module;</script>
+</body>
+</html>
