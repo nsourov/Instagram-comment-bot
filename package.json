@@ -15,7 +15,7 @@
     "puppeteer": "^1.2.0"
   },
   "devDependencies": {
-    "electron": "v1.8.3",
+    "electron": "v9.1.0",
     "electron-packager": "^11.2.0"
   }
 }
