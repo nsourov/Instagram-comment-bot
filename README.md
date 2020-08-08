@@ -1,3 +1,4 @@
+# THIS PROJECT IS NOT MAINTAINING ANYMORE. LOOKING FOR COLLABORATORS.
 # Instagram-comment-bot
 Instagram comment bot in electron and puppeteer
 
